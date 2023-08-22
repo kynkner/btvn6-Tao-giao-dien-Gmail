@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    background-color: #FFFFFF;  
+    width: 100%;
+    border-bottom: 1px solid rgb(218,220,224);
+    position: sticky;
+    z-index:10;
+    top:0;
+}
+.headline .logo{
+    width: 222px;
+    height: 32px;
+}
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.box{
+    display: flex;
+    justify-content: center; 
+}
+.box2{
+    width: 330px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin: 40px 15px 0 40px;
+    min-height: 447px;
+    padding: 30px 40px;
+}
+
+ul{
+    text-decoration:none;
+    list-style: none;
+}
+.meet{
+    width: 48px;
+    height: 46px;
+}
+.app{
+    width: 222px;
+    height: 34px;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+h2{
+    font-size: 38px;
+}
+/*Box1: bang 1*/
+.box1{
+    margin: 40px 15px 0 40px;
+    padding: 0px 40px;
+}
+.text{
+    width: 414px;
+    height: 54px;
+    margin-top: 47px;
+    font-size: 20px;
+}
+.box1 .para{
+    margin-top: 26px;
+    font-size: 18px;
+}
+.box1 .select li{
+    margin-top: 23px;
+    font-size: 18px;
+}
+.box1 .select li span{
+    padding-left: 10px;
+}
+.block-2{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.next{
+    background-color: rgb(20, 33, 218);
+    width: 112px;
+    cursor: pointer;
+}
+.b2a{
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size:20px;
+    line-height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.select input[type=radio]{
+    height: 20px;
+    width: 20px;
+}
+.block-2 select{
+    width: 418px;
+    height: 56px;
+    font-size: 17px;
+    padding: 0 10px;
+}
+/*box2: bang 2*/
+/*part1*/
+.part-1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.brick-one{
+    border-bottom: 1px solid rgb(218,220,224);
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.part-1 .para{
+    width: 245px;
+    height: 99px;
+    margin-left: 30px;
+
+}
+.part-1 .para h4{
+       font-size: 22px;
+       margin-bottom: 10px;
+}
+.part-1 .para p{
+    font-size: 14px;
+    line-height: 20px;
+}
+/* part2*/
+.part-2{
+    width:308px;
+    
+}
+.part-2 .list li{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.part-2 h2{
+    font-size:30px;
+    margin-top: 40px;
+    list-style: none;
+    color: rgb(66, 64, 64);
+}
